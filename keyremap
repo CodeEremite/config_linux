@@ -1,0 +1,10 @@
+#!/bin/bash
+xmodmap -e "remove control = Control_L"
+xmodmap -e "remove lock = Caps_Lock"
+xmodmap -e "remove mod4 = Super_L"
+xmodmap -e "keycode 0x85 = Caps_Lock"
+xmodmap -e "keycode 0x25 = Super_L"
+xmodmap -e "keycode 0x42 = Control_L"
+xmodmap -e "add lock = Caps_Lock"
+xmodmap -e "add control = Control_L"
+xmodmap -e "add mod4 = Super_L"
