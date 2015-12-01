@@ -1,5 +1,5 @@
 # config_linux
-## １、更改键盘设置
+## １、更改键盘设置(运行keyremap)
      Caps_lock <-> Control_L  
      Control_L <-> Super_L  
      Super_L   <-> Caps_lock  
